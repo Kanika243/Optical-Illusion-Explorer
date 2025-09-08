@@ -1,0 +1,152 @@
+/* Base Theme */
+body {
+  background-color: #c04747;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark Mode Theme */
+.dark-mode {
+  background-color: #8a095b;
+  color: #f5f5f5;
+}
+
+/* Illusion Card Styling */
+.illusion-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.dark-mode .illusion-card {
+  background-color: #f2e381;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.05);
+}
+
+/* Hover Effects */
+.illusion-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Preview Image Area - Base */
+.illusion-preview {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Individual Illusion Heights */
+.ames-room {
+  height: 260px;
+  object-fit: contain;
+}
+
+.cafe-wall {
+  height: 240px;
+  object-fit: contain;
+}
+
+.spinning-dancer {
+  height: 26em;
+  object-fit: contain;
+}
+
+.rotating-snakes {
+  height: 300px;
+  object-fit: contain;
+}
+
+.checker-shadow {
+  height: 230px;
+  object-fit: contain;
+}
+
+/* Text Styling Inside Cards */
+.illusion-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.illusion-description {
+  font-size: 0.9rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+/* Modal Image */
+.illusion-modal-img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive Grid */
+.illusion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Button Margin Utility */
+.btn-margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Utility for Centered Content */
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Improve modal text for dark mode */
+.dark-mode .modal-content {
+  background-color: #222;
+  color: white;
+}
+/* Preview Image Area - Base */
+.illusion-preview {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Individual Illusion Heights (Only New/Requested Ones) */
+.ebbinghaus {
+  height: 250px;
+  object-fit: contain;
+}
+
+.rotating-snakes {
+  height: 300px; /* Already defined, unchanged */
+  object-fit: contain;
+}
+
+.lilac-chaser {
+  height: 240px;
+  object-fit: contain;
+}
+
+.muller-lyer {
+  height: 260px;
+  object-fit: contain;
+}
