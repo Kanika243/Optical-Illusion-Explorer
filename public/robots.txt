@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://kanika243.github.io/Optical-Illusion-Explorer/sitemap.xml
